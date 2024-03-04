@@ -2,7 +2,7 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>Mi biblioteca personal</h1>
+                <h1>Libros del autor John Doe</h1>
                 <table>
                     <tr bgcolor="#88444">
                         <th>ISBN</th>
@@ -10,10 +10,21 @@
                         <th>Autor</th>
                         <th>Precio</th>
                     </tr>
-                    <xsl:for-each select="libreria/libro">
-                        <xsl:sort select="precio"/>
+                    <!-- Libros de John Doe ordenados por precio -->
+                    <xsl:for-each select="libreria/libro[autor='John Doe']">
+                        <xsl:sort select="precio" data-type="number"/>
                         <tr bgcolor="#89999">
-                            <td><xsl:value-of select="isbn"/></td> <!-- Muestra el ISBN del libro -->
+                            <td><xsl:value-of select="isbn"/></td>
+                            <td><xsl:value-of select="titulo"/></td>
+                            <td><xsl:value-of select="autor"/></td>
+                            <td><xsl:value-of select="precio"/></td>
+                        </tr>
+                    </xsl:for-each>
+                    <!-- Libros de todos los demás autores ordenados por precio -->
+                    <xsl:for-each select="libreria/libro[autor!='John Doe']">
+                        <xsl:sort select="precio" data-type="number"/>
+                        <tr bgcolor="#89999">
+                            <td><xsl:value-of select="isbn"/></td>
                             <td><xsl:value-of select="titulo"/></td>
                             <td><xsl:value-of select="autor"/></td>
                             <td><xsl:value-of select="precio"/></td>
