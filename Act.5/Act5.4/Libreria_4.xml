@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="Libreria_3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Libreria.xsl"?>
 <libreria>
+    <libro>
+        <titulo>Introducción a la programación en Java</titulo>
+        <autor>Juan Pérez</autor>
+        <editor>Editorial de Java</editor>
+        <isbn>978-1234567892</isbn>
+        <percio>10.50</percio>
+    </libro>
+    <libro>
+        <titulo>Fundamentos de la programación orientada a objetos</titulo>
+        <autor>Ana García</autor>
+        <editor>Editorial de POO</editor>
+        <isbn>978-1234567893</isbn>
+        <percio>60.50</percio>
+    </libro>
     <libro>
         <titulo>Physics-Based animation</titulo>
         <autor>Kenny Erieben</autor>
@@ -14,13 +28,6 @@
         <editor>Dykinson</editor>
         <isbn>978-84-9849-998-8</isbn>
         <percio>13.00</percio>
-    </libro>
-    <libro>
-        <titulo>Objetos 3D</titulo>
-        <autor>Manuel Garcia</autor>
-        <editor>Editorial de Objetos3D</editor>
-        <isbn>978-1234567893</isbn>
-        <percio>12.50</percio>
     </libro>
     <libro>
         <titulo>Ejercicios compementarios de lógica digital</titulo>

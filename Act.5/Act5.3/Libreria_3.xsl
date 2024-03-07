@@ -11,7 +11,7 @@
          <th>Precio</th>
        </tr>
        <xsl:for-each select="libreria/libro">
-         <xsl:sort select="percio" order="descending"/>
+         <xsl:sort select="libreria/libro[percio > 10 and autor = 'Martin Fowler']"/>
          <xsl:if test="not(preceding-sibling::libro[autor = current()/autor])">
            <tr>
              <td><xsl:value-of select="autor"/></td>
