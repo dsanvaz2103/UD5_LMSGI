@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="Libreria_4.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Libreria_5.xsl"?>
 
 <libreria>
     <libro>
@@ -49,21 +49,5 @@
         <isbn>978-3456789012</isbn>
         <precio>9.99</precio>
         <numPagina>160</numPagina>
-    </libro>
-    <libro>
-        <titulo>El Secreto del Universo</titulo>
-        <autor>Carl Sagan</autor>
-        <editor>Editorial Galáctica</editor>
-        <isbn>978-1234567895</isbn>
-        <precio>10.50</precio>
-        <numPagina>350</numPagina>
-    </libro>
-    <libro>
-        <titulo>La Guía del Viajero Intergaláctico</titulo>
-        <autor>Douglas Adams</autor>
-        <editor>Editorial Viaje</editor>
-        <isbn>978-1234567896</isbn>
-        <precio>60.50</precio>
-        <numPagina>450</numPagina>
     </libro>
 </libreria>
