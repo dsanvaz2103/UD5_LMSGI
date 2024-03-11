@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="cd_p2.xsl"?>
+<catalogo>
+    <cd>
+        <titulo>Thriller</titulo>
+        <artista>Michael Jackson</artista>
+        <canciones>
+            <cancion>
+                <titulo>Wanna Be Startin' Somethin'</titulo>
+                <duracion>6:03</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Baby Be Mine</titulo>
+                <duracion>4:20</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Epic Records</sello_discografico>
+        <anno_publicacion>1982</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>If I'm Honest</titulo>
+        <artista>Blake Shelton</artista>
+        <canciones>
+            <cancion>
+                <titulo>I'll Name the Dogs</titulo>
+                <duracion>3:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>If I'm Honest</titulo>
+                <duracion>3:45</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Warner Records</sello_discografico>
+        <anno_publicacion>2016</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Night Visions</titulo>
+        <artista>Imagine Dragons</artista>
+        <canciones>
+            <cancion>
+                <titulo>Radioactive</titulo>
+                <duracion>3:18</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Demons</titulo>
+                <duracion>3:08</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Interscope Records</sello_discografico>
+        <anno_publicacion>2012</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Abbey Road</titulo>
+        <artista>The Beatles</artista>
+        <canciones>
+            <cancion>
+                <titulo>Come Together</titulo>
+                <duracion>4:20</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Something</titulo>
+                <duracion>3:03</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Apple Records</sello_discografico>
+        <anno_publicacion>1969</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>In Utero</titulo>
+        <artista>Nirvana</artista>
+        <canciones>
+            <cancion>
+                <titulo>Serve the Servants</titulo>
+                <duracion>3:47</duracion>
+            </cancion>
+            <cancion>
+                <titulo>All Apologies</titulo>
+                <duracion>4:20</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>DGC Records</sello_discografico>
+        <anno_publicacion>1993</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Extremoduro</titulo>
+        <artista>Extremoduro</artista>
+        <canciones>
+            <cancion>
+                <titulo>Ella es una chica de Hiroshima</titulo>
+                <duracion>3:30</duracion>
+            </cancion>
+            <cancion>
+                <titulo>La chispa</titulo>
+                <duracion>3:45</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>DRO</sello_discografico>
+        <anno_publicacion>1985</anno_publicacion>
+    </cd>
+
+    <cd>
+        <titulo>Rumours</titulo>
+        <artista>Fleetwood Mac</artista>
+        <canciones>
+            <cancion>
+                <titulo>Go Your Own Way</titulo>
+                <duracion>3:43</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Dreams</titulo>
+                <duracion>4:14</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Warner Bros. Records</sello_discografico>
+        <anno_publicacion>1977</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Led Zeppelin IV</titulo>
+        <artista>Led Zeppelin</artista>
+        <canciones>
+            <cancion>
+                <titulo>Stairway to Heaven</titulo>
+                <duracion>8:02</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Black Dog</titulo>
+                <duracion>4:55</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Atlantic Records</sello_discografico>
+        <anno_publicacion>1971</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Born to Run</titulo>
+        <artista>Bruce Springsteen</artista>
+        <canciones>
+            <cancion>
+                <titulo>Thunder Road</titulo>
+                <duracion>4:49</duracion>
+            </cancion>
+            <cancion>
+                <titulo>Tenth Avenue Freeze-Out</titulo>
+                <duracion>3:11</duracion>
+            </cancion>
+        </canciones>
+        <sello_discografico>Columbia Records</sello_discografico>
+        <anno_publicacion>1975</anno_publicacion>
+    </cd>
+    
+    <cd>
+        <titulo>Sgt. Pepper's Lonely Hearts Club Band</titulo>
+        <artista>The Beatles</artista>
+        <canciones>
+            <cancion>
+                <titulo>Lucy in the Sky with Diamonds</titulo>
+                <duracion>3:28</duracion>
+            </cancion>
+            <cancion>
+                <titulo>With a Little Help from My Friends</titulo>
+                <duracion>2:44</duracion>
+            </cancion> 
+        </canciones>
+        <sello_discografico>Apple Records</sello_discografico>
+        <anno_publicacion>1967</anno_publicacion>
+    </cd>
+</catalogo>
