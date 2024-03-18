@@ -27,15 +27,16 @@
                 <table>
                     <tr>
                         <th colspan="3">Datos</th>
-                        <th colspan="3">Notas</th>
+                        <th colspan="4">Notas</th>
                     </tr>
                     <tr>
                         <th>Nombre Alumno:</th>
-                        <th>Actividades UD5</th>
+                        <th>Apellidos</th>
                         <th>Convocatoria</th>
                         <th>Cuestionarios</th>
                         <th>Tareas</th>
                         <th>Examen</th>
+                        <th>Total</th>
                     </tr>
                     <xsl:for-each select="alumno[@convocatoria='Junio']">
                         <tr>
